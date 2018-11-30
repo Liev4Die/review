@@ -1,0 +1,18 @@
+body{
+	background-color: lightblue;
+}
+
+nav{
+	float: left;
+}
+
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+	padding: 10px;
+}
