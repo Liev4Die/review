@@ -21,6 +21,32 @@ a{
 	padding: 8px;
 }
 
+h1{
+	font-size: 50px;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+h2{
+	padding-bottom: 5px;
+}
+
+h3{
+	margin: 20px;
+	text-align: left;
+}
+
+.border{
+	border-bottom: 2px solid black;
+}
+
+.border2{
+	border-right: 2px solid black;
+	position: absolute;
+	width: 500px;
+	height: 1100px;
+}
+
 .logo{
 	float: left;
 	width: 150px;
@@ -31,11 +57,31 @@ a{
 	padding-left: 30px;
 }
 
+.reviews{
+	float: right;
+	position: absolute;
+	margin-left: 550px;
+}
+
+.reviews h2{
+	border: 2px solid blue;
+    border-radius: 12px;
+    padding-right: 300px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.reviews img{
+	border: 5px solid green;
+	height: 180px;
+}
+
 
 /*search bar*/
 
 .search-bar-div{
-  	padding-top: 25px;
+  	padding-top: 10px;
   	padding-right: 80px;
 }
 
@@ -68,9 +114,9 @@ input#search-bar{
 	&:-ms-placeholder {
    	transition: opacity 0.45s ease; 
   	opacity: 0;
- }    
- }
- }
+}    
+}
+}
 
 .search-icon{
 	position: relative;
